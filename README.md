@@ -20,7 +20,7 @@
 
 Для создания тестового проекта:
 -  создать папку, напр. Test и скопировать в неё рабочий проект.
-- заменить файлы main.cpp и CMakeLists.txt на тестовые (из пвпки forGTest).
+- заменить файлы main.cpp и CMakeLists.txt на тестовые (из папки forGTest).
 
 Подготовленный тестовый проект : https://github.com/SuhoparovYD/search_engine_test
 
