@@ -48,14 +48,14 @@ int main() {
         cin >> command;
         if (command == 3) exit(0);
         if (command== 1 or command==2) {
-            string target = "move/y answers.json last/answers_" + to_string(count) + ".json";
+            string target = "move/y ..\\answers.json last/answers_" + to_string(count) + ".json";
             system(target.c_str());
-            target = "move/y requests.json last/requests_" + to_string(count++) + ".json";
+            target = "move/y ..\\requests.json last/requests_" + to_string(count++) + ".json";
             system(target.c_str());
             if(command==1)
-                system("copy 1\\requests.json requests.json");
+                system("copy ..\\1\\requests.json ..\\requests.json");
             else
-                system("copy 2\\requests.json requests.json");
+                system("copy ..\\2\\requests.json ..\\requests.json");
         }
     }
 
